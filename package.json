@@ -4,7 +4,6 @@
   "description": "城市选择器",
   "author": "xinxingyu",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CyrusLiu158/vue-city.git"
   },
   "scripts": {
