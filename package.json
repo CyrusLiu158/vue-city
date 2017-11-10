@@ -5,7 +5,7 @@
   "author": "xinxingyu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CyrusLiu158/vue-city.git"
+    "url": "https://github.com/CyrusLiu158/vue-city.git"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
