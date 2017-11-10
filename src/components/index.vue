@@ -308,34 +308,31 @@
         right: 0;
         background: #fff;
         z-index: 10000;
-        font-size: 0.14rem;
         color: #333;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        // padding: 0.1rem 0.1rem 0 0.1rem;
-        margin: 0.1rem 0.1rem 0 0.1rem;
-		box-shadow: 0 .01rem .06rem rgba(0, 0, 0, .2);
+
+		box-shadow: 1rem 1rem rgba(0, 0, 0, .2);
         .xin-widget-citys-content{
             width: 100%;
             height: auto;
             background: #fff;
 			// box-shadow: 0 .01rem .06rem rgba(0, 0, 0, .2);
-			border-radius: 0.03rem;
+			border-radius: 0.3rem;
             .xin-widget-citys-header{
-                height: 0.38rem;
+                height: 3rem;
                 display: -webkit-box;
                 background: #fafafa;
                 .xin-widget-citys-iptbox{
                     -webkit-box-flex: 1.0;
                     height: 100%;
-                    padding: 0 0.12rem;
+                    padding: 0 1.2rem;
                     input{
                         width: 100%;
                         height: 100%;
-                        line-height: 0.38rem;
+                        /*line-height: 0.38rem;*/
                         display: block;
                         border: none;
-                        font-size: 0.14rem;
                         background: none;
                         box-sizing: border-box;
                     }
@@ -345,60 +342,59 @@
                     }
                 }
                 a{
-                    width: 0.5rem;
+                    width: 5rem;
                     height: 100%;
-                    line-height: 0.38rem;
+                    padding-top: 0.7rem;
+                    /*line-height: 0.38rem;*/
                     text-align: center;
                     color: #999999;
                     display: block;
                 }
             }
             .xin-widget-citys-local{
-                height: 0.5rem;
-                line-height: 0.5rem;
-                text-indent: 0.16rem;
+                height: 3rem;
+                line-height: 3rem;
+                text-indent: 1.2rem;
             }
             .xin-widget-citys-list{
                 position: relative;
                 dl{
                     dt{
-                        height: 0.28rem;
-                        line-height: 0.28rem;
-                        font-size: 0.14rem;
+                        line-height: 2rem;
                         color: #878787;
                         background: #f0f0f0;
-                        text-indent: 0.16rem;
+                        text-indent: 0.5rem;
                         em{
                             position: relative;
-                            top: 0.01rem;
-                            margin-right: 0.06rem;
+                            top: 0.1rem;
+                            margin-right: 6px;
                         }
                     }
                     dd{
-                        padding: 0 0.16rem;
-                        height: 0.5rem;
-                        line-height: 0.5rem;
+                        padding: 0 1rem;
+                        height: 2.3rem;
+                        line-height: 2.3rem;
                     }
                 }
             }
         }
         .xin-widget-citys-searchlist{
             position: absolute;
-            top: 0.4rem;
+            top: 4rem;
             width: 100%;
             bottom: 0;
             z-index: 10001;
             background: #fff;
             overflow: auto;
             li{
-                margin: 0 0.16rem;
-                height: 0.5rem;
-                line-height: 0.5rem;
+                margin: 0 1.6rem;
+                height: 2.5rem;
+                line-height: 2.5rem;
+                /*line-height: 0.5rem;*/
             }
             .nomatch{
-                line-height: 0.5rem;
+                /*line-height: 0.5rem;*/
                 text-align: center;
-                font-size: 0.14rem;
                 color: #aaa;
             }
         }
@@ -448,7 +444,6 @@
             li{
                 padding:0.03rem 0.02rem;
                 color: #666666;
-                font-size: 0.12rem;
                 width: 100%;
                 line-height: 100%;
                 box-sizing: border-box;
@@ -471,16 +466,16 @@
 		opacity: 0;
 	}
     .star-big{
-        width: 0.14rem;
-        height: 0.14rem;
+        width: 1rem;
+        height: 1rem;
         display: inline-block;
         background-size: cover;
         background-image:
             url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0NUIzQTM3OTdEODIxMUU2OUY3OURCQzgxN0I4RjkwMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0NUIzQTM3QTdEODIxMUU2OUY3OURCQzgxN0I4RjkwMCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ1QjNBMzc3N0Q4MjExRTY5Rjc5REJDODE3QjhGOTAwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ1QjNBMzc4N0Q4MjExRTY5Rjc5REJDODE3QjhGOTAwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ZnVAOAAAAZhJREFUeNpinDlzJgMZwBZKHyZVIwsDeaAGiP/Sy0JTIHaDso2B+CwpmpnI9B0MVJGqmVQL9YDYF4kfAMSatLSwGogZ0fRX0cpCDSAOwSIeAcRKtLCwCod6UMIrpbaFIB9E4pFPBGIpalgoCMR2QNxLIAuxQ9VYA7EAMfmQB4i1gFgXidYm1tVIcRkBZT8B4mtAfBmJvg7EX0AWdkLjgJGBekAGit2QxP4DcTcsWc9ioD2YAbKLCVomZgBxKw0tawLiLJBdTGhFViHU69QC/4A4D4jrcaXSCUAcD8R/qGDZLyCOBeLJhLLFYiAOBOLvFFj2FYj9gXgZsflwCxAHUWChFxDvIDXj/6bAwh/klDTmFFhoSY6FFhRYaDHoLVQBYlEKLFQAYglSLDTDY9hzIM6F4uekxiMpFr4B4nIgVgbiKVCsDBV7S2ywMhHhuo9A3AA1vAutQPgOFQNV0I1A/JkcCzmA2ACIv0GrLmWoYZ/wBN8nqKNAFndDHWKCrdLGZqEOEM+EWlSBI7hwAVCwl0H1LsDWhAQIMACcSkm+eKvWYQAAAABJRU5ErkJggg==');
     }
     .star-small{
-        width: 0.12rem;
-        height: 0.12rem;
+        width: 1.2rem;
+        height: 1.2rem;
         display: inline-block;
         background-size: cover;
         background-image:
