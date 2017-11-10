@@ -311,6 +311,7 @@
         color: #333;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
+        text-align: center;
 
 		box-shadow: 1rem 1rem rgba(0, 0, 0, .2);
         .xin-widget-citys-content{
@@ -327,6 +328,8 @@
                     -webkit-box-flex: 1.0;
                     height: 100%;
                     padding: 0 1.2rem;
+                    border: 1px solid #f3f2f2;
+
                     input{
                         width: 100%;
                         height: 100%;
@@ -337,7 +340,7 @@
                         box-sizing: border-box;
                     }
                     input::-webkit-input-placeholder{
-                        color: #cdcdcd;
+                        /*color: #cdcdcd;*/
                         text-align: left;
                     }
                 }
