@@ -554,7 +554,7 @@
         background: #fff;
     }
     body{
-        padding: 0.2rem 0.1rem!important;
+        padding: 0.2rem 0.1rem;
         box-sizing: border-box;
     }
     .choice{
@@ -564,7 +564,7 @@
         background: #fff;
         margin-bottom: 10px;
         border: solid 1px #e5e5e5;
-        background: rgba(237, 85, 101, 0.8)!important;
+        background: rgba(237, 85, 101, 0.8);
         color: #fff;
     }
 </style>

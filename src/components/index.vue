@@ -292,7 +292,7 @@
 </script>
 <style lang="less" scoped>
     *{
-        font-weight: 300!important;
+        font-weight: 300;
     }
     ::-webkit-scrollbar{
         display: none;
@@ -465,7 +465,7 @@
     //    -webkit-transform: translateX(100%) translateZ(0);
     // }
 	.slide-enter, .slide-leave-active{
-		transform: translateX(100%)!important;
+		transform: translateX(100%);
 	}
 	.fade-enter, .fade-leave-active{
 		opacity: 0;
