@@ -1,11 +1,11 @@
 {
-  "name": "vue-city",
+  "name": "vue-city-yf",
   "version": "2.0.0",
   "description": "城市选择器",
   "author": "xinxingyu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xinxingyu/vue-city"
+    "url": "git+https://github.com/CyrusLiu158/vue-city.git"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
