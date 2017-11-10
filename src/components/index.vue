@@ -311,7 +311,7 @@
         color: #333;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        text-align: center;
+        text-align: left;
 
 		box-shadow: 1rem 1rem rgba(0, 0, 0, .2);
         .xin-widget-citys-content{
